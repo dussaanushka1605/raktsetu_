@@ -126,9 +126,6 @@ console.log('Donor routes registered');
 app.use('/api/hospital', require('./routes/hospital'));
 console.log('Hospital routes registered');
 
-app.use('/api/feedback', require('./routes/feedback'));
-console.log('Feedback routes registered');
-
 // Log all incoming requests
 app.use((req, res, next) => {
     console.log('Incoming request:', {

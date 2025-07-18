@@ -95,9 +95,6 @@ const AdminDashboard: React.FC = () => {
               </Card>
             </div>
           </div>
-
-          {/* Feedback Section */}
-          {/* The feedback section has been removed from the main dashboard */}
         </div>
       </main>
       
