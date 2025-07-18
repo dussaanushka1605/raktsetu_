@@ -47,7 +47,7 @@ const NewRequest: React.FC = () => {
 
       console.log('Sending request payload:', requestPayload);
 
-      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+      const API_URL = import.meta.env.VITE_API_URL || 'https://raktsetu-ew10.onrender.com';
       const response = await axios.post(`${API_URL}/api/hospital/blood-requests`, requestPayload, {
         headers: { 
           'Content-Type': 'application/json',
